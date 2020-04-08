@@ -3,7 +3,7 @@ from config.conf import *
 from common.get_excel import Get_Excel
 import re#导入正则表达式包
 import pytest
-import random
+import random#导入随机方法
 
 
 excel = Get_Excel()
@@ -102,3 +102,4 @@ def test_1(title1,type,tobeornottobe,content,url,data,other1,other2,expected):
 # r_3 = s.get(url=url_3)
 # print(r_3.text)
 # pip install -U pytest
+
